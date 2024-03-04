@@ -1,0 +1,36 @@
+{
+  "operators" : {
+    ":=" : "O1",
+    ";" : "O2",
+    "(" : "O3",
+    ")" : "O4"
+  },
+  "keywords" : {
+    "and" : "K1",
+    "or" : "K2",
+    "xor" : "K3",
+    "not" : "K4"
+  },
+  "constants" : {
+    "T" : "C1",
+    "F" : "C2"
+  },
+  "identifier_rules" : {
+    "identifier_mark" : "I",
+    "invalid_mark" : "E",
+    "max_length" : 16,
+    "regex" : "[a-zA-Z]+\\d*[a-zA-Z]*"
+  },
+  "comment_chars" : [
+    "//",
+    "%"
+  ],
+  "aliases" : {
+    "operators" : "Оператор",
+    "keywords" : "Ключевое слово",
+    "constants" : "Константа",
+    "identifiers" : "Идентификатор",
+    "comment" : "Комментарий",
+    "invalid" : "Некорректный токен"
+  }
+}
